@@ -1,7 +1,8 @@
 puts "Bonjour, donne moi un nombre"
 print ">"
 reach_number = gets.to_i
-until reach_number == -1
-    puts reach_number
-    reach_number-=1
+start = 0
+until start > reach_number
+    puts start
+    start+=1
 end
